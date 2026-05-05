@@ -49,9 +49,8 @@ bdh/
    ```
 
 2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+   - **Mac (Apple Silicon)**: `pip install -r requirements.txt`
+   - **PC / Other**: `pip install -r requirements-pc.txt`
 
 ## Usage
 

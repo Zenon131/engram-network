@@ -1,0 +1,5 @@
+Epoch   1 | Train Loss: 3.2291 | Val Loss: 3.2291 | LR: 0.000100 | Time: 3437.8s
+Epoch   2 | Train Loss: 3.1246 | Val Loss: 3.1246 | LR: 0.000100 | Time: 1247.8s
+Epoch   3 | Train Loss: 3.1223 | Val Loss: 3.1223 | LR: 0.000100 | Time: 2438.4s
+Epoch   4 | Train Loss: 3.1209 | Val Loss: 3.1209 | LR: 0.000100 | Time: 1321.3s
+Epoch   5 | Train Loss: 3.1198 | Val Loss: 3.1198 | LR: 0.000100 | Time: 1050.2s

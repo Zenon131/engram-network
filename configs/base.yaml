@@ -1,0 +1,29 @@
+# Base configuration for BDH model
+model:
+  vocab_size: 256
+  n_neurons: 32768
+  d_model: 256
+  n_layers: 6
+
+# Distance-based neuron clustering (optional — remove to disable)
+# Nearby neurons form stronger connections; distant ones are weakly coupled.
+spatial_clustering:
+  n_clusters: 128 # number of spatial neuron groups
+  spatial_dim: 3 # coordinate space dimensionality
+  sigma: 1.0 # decay length-scale (learnable)
+  decay_type: gaussian # gaussian | exponential | inverse | cosine
+  learnable_positions: true
+  learnable_sigma: true
+  min_decay: 0.01 # floor — prevents total disconnection
+  modulate_feedforward: true
+  modulate_hebbian: true
+  modulate_output: true
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 10
+  checkpoint_interval: 1000
+
+data:
+  max_sequence_length: 512
